@@ -4,9 +4,9 @@ from eth_account import Account
 # =========================================================
 # CONFIG
 # =========================================================
-RPC_URL = "https://optimism-mainnet.infura.io/v3/a5afabd83b0c4f39a887ca9472bade51"
+RPC_URL = ""
 CHAIN_ID = 10  # Optimism
-PRIVATE_KEY = "1f30a133bcda1193bbefb237d4c2dcd5b9856a30c14fe439e46ec52b9e86b8f2"
+PRIVATE_KEY = ""
 
 # Connect account and Web3
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
@@ -17,7 +17,7 @@ print(f"Using owner account: {SENDER}")
 # =========================================================
 # CONTRACT
 # =========================================================
-CONTRACT_ADDRESS = Web3.to_checksum_address("0xe0fb171F4288dEa7Cd7B9C55471C15652b614Acd")
+CONTRACT_ADDRESS = Web3.to_checksum_address("")
 
 ABI = [
     {
